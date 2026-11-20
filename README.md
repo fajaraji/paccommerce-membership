@@ -18,6 +18,12 @@ This mirrors the spec in the slides:
 
 ---
 
+## Explore the implementation
+
+Run the examples to see how a new member is classified by Euclidean distance and how the tier changes a basket total.
+
+- [Membership rules and worked examples](main.py)
+
 ## How it works
 
 1. **Data Model**
@@ -41,11 +47,11 @@ This mirrors the spec in the slides:
 
 ---
 
-## Requirements
+## Run the examples
 
-- Python 3.8+
-- `tabulate`
-
-Install locally:
 ```bash
-pip install tabulate
+python -m pip install tabulate
+python main.py
+```
+
+The script prints worked examples using its in-memory records. Edit the sample calls in `main.py` to try other inputs.
